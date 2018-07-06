@@ -5,7 +5,7 @@ import {Text, FormLabel, FormInput, FormValidationMessage, Button, Divider, Chec
 export default class FillInBlanksQuestionEditor
     extends React.Component{
     static navigationOptions = {
-        title: 'Multiple Choice'
+        title: 'Fill In Blanks'
     };
     constructor(props) {
         super(props);
