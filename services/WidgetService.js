@@ -3,7 +3,6 @@ let _singleton = Symbol();
 const url = 'https://arcane-garden-97301.herokuapp.com';
 // const url = 'http://192.168.0.14:8080';
 
-
 export default class WidgetService {
     constructor(singletonToken) {
         if (_singleton !== singletonToken)
